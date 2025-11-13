@@ -93,7 +93,8 @@ DROP TABLE Employees;
 ##Easy Picturication btw Delete, truncate, drop;
 Difference:
 
-Command	          Removes_Data	    Removes_Table_Structure	    Rollback Possible
-DELETE	           ✅ Yes	         ❌ No	                  ✅ Yes (if in transaction)
-TRUNCATE	       ✅ Yes	         ❌ No	                  ❌ No
-DROP	           ✅ Yes	         ✅ Yes	                  ❌ No
+|Command	   |   Removes_Data  |  Removes_Table_Structure	  |  Rollback Possible             |
+----------------------------------------------------------------------------------------------------
+|DELETE	       |    ✅ Yes	    |     ❌ No	               |   ✅ Yes (if in transaction)   |
+|TRUNCATE	   |    ✅ Yes	    |     ❌ No	               |    ❌ No                       |
+|DROP	       |    ✅ Yes	    |     ✅ Yes	               |    ❌ No                       |
