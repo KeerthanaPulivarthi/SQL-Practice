@@ -1,5 +1,4 @@
-# SQL Constraints — A concise, production-ready reference covering all common SQL constraints: definitions, syntax, usage examples, and best practices. Suitable for inclusion in a GitHub repo README or a technical documentation site.
-
+# SQL Constraints :
 ## Overview
 
 Constraints are rules that the database enforces to ensure the integrity, consistency, and validity of data. They are declared at table creation time (`CREATE TABLE`) or added later with `ALTER TABLE`.
